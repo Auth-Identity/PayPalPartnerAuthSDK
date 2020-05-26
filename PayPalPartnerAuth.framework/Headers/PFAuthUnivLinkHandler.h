@@ -9,11 +9,11 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol OIDExternalUserAgentSession;
+@protocol PFOIDExternalUserAgentSession;
 
 @interface PFAuthUnivLinkHandler : NSObject
 
-- (nullable instancetype)initWithAuthSession:(nonnull id<OIDExternalUserAgentSession>)currentAuthorizationFlow;
+- (nullable instancetype)initWithAuthSession:(nonnull id<PFOIDExternalUserAgentSession>)currentAuthorizationFlow;
 - (BOOL)continueAuthFlowWithURL:(nonnull NSURL *)URL;
 
 @end

@@ -8,7 +8,7 @@
 //
 
 #import <Foundation/Foundation.h>
-@class OIDAuthState;
+@class PFOIDAuthState;
 
 @interface PFTokenResult : NSObject
 
@@ -17,7 +17,7 @@
 
 - (nullable instancetype)init NS_UNAVAILABLE;
 
-- (nullable instancetype)initWithAuthState:(nonnull OIDAuthState *)authState;
+- (nullable instancetype)initWithAuthState:(nonnull PFOIDAuthState *)authState;
 
 
 @end
